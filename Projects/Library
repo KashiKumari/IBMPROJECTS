@@ -1,0 +1,17 @@
+class Library:
+    def __inti__(self,name,author):
+        self.name=name
+        self.author=author
+    def set_name(self,name):
+        self.name=name
+        
+        
+    
+    def get_name(self):
+        return self.name
+    
+    
+    
+obj1=Library("Wings of Fire","Rabindranath Tagore")
+print(obj1.get_name())
+        
