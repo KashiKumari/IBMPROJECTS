@@ -1,0 +1,28 @@
+class ems:
+    def __init__(self,name,ide,age,salary):
+        self.name=name
+        self.ide=ide
+        self.age=age
+        self.salary=salary
+    def get_name(self):
+        return self.name
+    def set_name(self,name):
+        self.name=name
+    def get_ide(self):
+        return self.ide
+    def set_ide(self,ide):
+        self.ide=ide
+    def get_age(self):
+        return self.age 
+    def set_age(self,age):
+        self.age=age
+    def get_salary(self):
+        return self.salary
+    def set_salary(self,salary):
+        self.salary=salary
+
+obj1 = ems("Mahi","xyz",30,10000)
+print(obj1.get_name())
+print(obj1.get_ide())
+print(obj1.get_age())
+print(obj1.get_salary())
