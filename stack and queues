@@ -1,0 +1,33 @@
+l1=[]
+# Adding elements
+l1.append(9)
+l1.append(98)
+l1.append(7)
+l1.append(8)
+print("Stack formed using list:",l1)
+l4=l1.pop()
+print(" Popped Element:",l4)
+print("Top element using predefined keyword(-1):",l1[-1])
+def peek():
+    size=len(l1)
+    print ("Total no of elements in the stack:",size)
+    l9=(l1[size-1])
+    return l9
+    
+print("Top element of the stack:",peek())
+
+#Queues
+l2=[]
+l2.append(9)
+l2.append(99)
+l2.append(97)
+l2.append(96)
+l2.append("kashi")
+print("Queue:",l2)
+l3=l2.pop(0)
+print("popped Element:",l3)
+print("Queue:",l2)
+print("Top element of the queue:",l2[0])
+
+
+
