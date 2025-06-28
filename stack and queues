@@ -15,6 +15,8 @@ def peek():
     return l9
     
 print("Top element of the stack:",peek())
+print("Top element of the stack:",peek())
+
 
 #Queues
 l2=[]
